@@ -1,0 +1,48 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+#drop-zone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+#drop-zone.dragging {
+    background-color: #e0f7fa;
+    border-color: #00796b;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+#results {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#progress-bar-container {
+    width: 100%;
+    background-color: #ddd;
+    margin-top: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#progress-bar {
+    width: 0;
+    height: 20px;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    transition: width 0.3s;
+}
