@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="upload-container">
+    <div id="drop-zone">
+        <p>Drag and drop your resume here or</p>
+        <button id="upload-btn">Upload File</button>
+        <input type="file" id="file-input" accept=".pdf,.doc,.docx,.txt" hidden />
+    </div>
+</div>
+
+<textarea id="job-desc" placeholder="Paste job description here"></textarea>
+<button id="analyze-btn">Analyze</button>
+
+<div id="results"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
